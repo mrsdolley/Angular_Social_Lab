@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f4f4;
+    font-family: 'Dosis', sans-serif;
+}
+
+.newThought {
+    width: 70vw;
+    font-family: 'Dosis', sans-serif;
+}
+
+.posts {
+    padding: 0 50px;
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: white;
+    width: 60vw;
+    text-align: left;
+    border-radius: 0.25rem;
+    
+   
+    
+}
+.myThoughts {
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    color:#18bbe0;
+    font-weight: bold;
+
+    
+} 
+
+.thought-container {
+   display: flex;
+   align-items: flex-start;
+   padding-top: 5px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+/* li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(236, 232, 232);
+    width: 70vw;
+} */
+
+i {
+    float: right;
+    font-size: 14px;
+    padding-left: 40px;
+
+  
+}
+
+.form {
+    border: 1px solid black;
+    padding: 10px 40px 30px 40px;
+    background-color: #B1DDEA;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 0.25rem;
+
+}
+
+textarea {
+    width: 90%;
+}
+
+.enterThoughts {
+    height: 100px;
+    vertical-align: text-top;
+    word-wrap: normal;
+  
+
+}
+
+.addPostButton {
+    margin-top: 15px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    background:white;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    background:white;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+    
+}
+
+.postList {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-bottom: solid 3px #f3f1f7;
+    padding: 10px;
+   
+}
